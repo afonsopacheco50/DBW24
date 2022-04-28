@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Helpdesk</title>
+    <style>
+    html, body {
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .cabecalho{
+      background-color: rgba(239, 185, 8, 0.8);
+      color: white;
+      padding: 30px;
+    } 
+
+    #Logo a{
+      padding-top: 2%;
+      padding-left: 8%;
+      font-size: 300%;
+      color: rgb(7, 5, 5);
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: none;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 210%;
+    }
+
+    p{
+        font-size: 115%;
+    }
+
+    .FormLogin{
+        text-align: center;
+    }
+    .FormLogin input{
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 22px;
+    }
+
+
+    .footer {
+      background-color: rgb(8, 6, 6);
+      line-height: 2.5;
+      font-size: 107%; 
+      position:fixed;
+      bottom: 0;
+      width:100%;
+      height:19%; 
+      }
+
+  .Social a{
+    color: white;
+    text-decoration: none;
+  }
+  .Social{
+    left: 10%;
+    position: absolute;
+  }
+  .LigCentro{
+    left: 45%;
+    position: absolute;
+  }
+  .LigCentro a{
+    color: white;
+    text-decoration: none;
+  }
+  .LigDireita{
+    right: 10%;
+    position: absolute;
+  }
+  .LigDireita a{
+    color: white;
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body> 
+  <div class="cabecalho"> 
+    <div id="Logo">
+      <a href="/">FNAC</a>
+    </div>
+  </div>
+
+  <br><br><br><h1>É agente? Inicie sessão</h1>
+
+  <div class="FormLogin">
+    <form>
+        <input type="text" id="name" name="fname" placeholder="Nome agente"><br>
+        <br>
+        <input type="text" id="pass" name="lname" placeholder="Password"><br>
+        <P>Não tem conta? <a href ="/registo" >Registe-se aqui</a></label></P>
+        <input type="submit" value="Continuar">
+      </form> 
+  </div>
+
+  <div class="footer">
+    <div class ="Social">
+      <a href="https://www.instagram.com/fnacportugal/" target="_blanck" >Instagram</a><br>
+      <a href="https://pt-pt.facebook.com/FnacPortugal/" target="_blanck">Facebook</a><br>
+      <a href="https://twitter.com/fnacportugal" target="_blanck">Twitter</a>
+    </div>   
+    <div class ="LigCentro">
+      <a href="https://www.fnac.pt/planos-casa#bl=footer" target="_blanck" >Planos CASA</a><br>
+      <a href="https://www.fnac.pt/parcerias#bl=footer" target="_blanck" >Parcerias</a><br>
+      <a href="https://passatemposfnac.pgtb.me/WB3BCv" target="_blanck" >Passatempos FNAC</a><br>
+    </div>  
+    <div class ="LigDireita">
+      <a href="https://www.fnac.pt/quemSomos" target="_blanck" >Quem somos?</a><br>
+      <a href="https://recrutamento.fnac.pt/" target="_blanck" >Trabalhar na FNAC</a><br>
+      <a href="https://www.fnac.pt/blog#bl=footer" target="_blanck" >Blogue Expert FNAC</a><br>
+    </div>
+</div>
+
+</html>

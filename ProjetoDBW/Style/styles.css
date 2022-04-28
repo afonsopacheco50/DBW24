@@ -1,0 +1,36 @@
+
+    html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cabecalho{
+  background-color: rgba(239, 185, 8, 0.8);
+  color: white;
+  padding: 30px;
+} 
+.cabecalho a {
+  text-align: right;
+}
+#Logo{
+  padding-left: 70px;
+  font-size: 300%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+  background-color: rgb(8, 6, 6);
+  padding: 30px;   
+  }
+
+.Social a{
+color: white;
+}
+.Social{
+padding-left: 120px;
+line-height: 2.5;
+font-size: 107%;
+}
+
