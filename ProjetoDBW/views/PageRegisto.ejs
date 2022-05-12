@@ -130,10 +130,10 @@
   <h1>Registe-se como agente</h1>
 
   <div class="FormRegisto">
-    <form>
-        <input type="text" id="name" name="Agname" placeholder="Nome agente"><br><br>
-        <input type="email" id="email" name="AgEmail" placeholder="Endereço eletronico"><br><br>
-        <input type="password" id="pass" name="AgPass" placeholder="Password"><br><br>
+    <form action="/registo" method="post">
+        <input type="text" name="AgName" placeholder="Nome agente" required><br><br>
+        <input type="email" name="AgEmail" placeholder="Endereço eletronico" required><br><br>
+        <input type="password" name="AgPass" placeholder="Password" required><br><br>
         <input id="Fim" type="submit" value="Finalizar">
       </form> 
   </div>

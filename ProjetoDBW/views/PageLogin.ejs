@@ -35,7 +35,10 @@
     }
 
     .FormLogin{
-        text-align: center;
+        text-align: center;   
+    }
+    .FormLogin a {
+      text-decoration: none;
     }
     .FormLogin input{
       padding: 6px;
@@ -92,10 +95,10 @@
   <br><br><br><h1>É agente? Inicie sessão</h1>
 
   <div class="FormLogin">
-    <form>
-        <input type="text" id="name" name="fname" placeholder="Nome agente"><br>
+    <form action="/login" method="POST">
+        <input type="text" id="name" name="Username" placeholder="Nome agente" required><br>
         <br>
-        <input type="text" id="pass" name="lname" placeholder="Password"><br>
+        <input type="password" id="pass" name="Password" placeholder="Password" required><br>
         <P>Não tem conta? <a href ="/registo" >Registe-se aqui</a></label></P>
         <input type="submit" value="Continuar">
       </form> 
